@@ -1,12 +1,14 @@
 # Rubocop::Ruby31
 
-See the blog post: 
+See the intro [blog post](https://dev.to/pboling/rubocop-ruby-matrix-gems-nj)!
+
+This gem requires no other gems.  It depends on `rubocop`, but does not `require 'rubocop'`.  The purpose of this gem is to constrain the dependency in a [SemVer compliant](https://semver.org/) (Semantic Versioning) way that aligns with the the minimum Ruby version a project will work with.
 
 ## Installation
 
 Install the gem and add to the application's Gemfile by executing:
 
-    $ bundle add rubocop-ruby3_1
+    $ bundle add rubocop-ruby3_1 -r false
 
 If bundler is not being used to manage dependencies, install the gem by executing:
 
@@ -14,7 +16,34 @@ If bundler is not being used to manage dependencies, install the gem by executin
 
 ## Usage
 
-TODO: Write usage instructions here
+The following is optional.  We'll discuss why you might want to do this after you see what it does.
+
+Add to the top of your project's RuboCop configuration file:
+
+```yaml
+inherit_gem:
+  rubocop-ruby3_1: rubocop.yml
+```
+
+This has the same effect as you declaring the following in your `.rubocop.yml`, and note that if you do have this in your's you should remove it to gain the full benefit of this gem:
+
+```yaml
+AllCops:
+  TargetRubyVersion: 3.1
+  NewCops: enable
+```
+
+Let's talk about these settings.
+
+## TargetRubyVersion
+
+Allowing this gem to manage the target ruby version means you can switch to a different gem within the family when you upgrade to the next version of Ruby, and have nothing else to change.  A single line in the `Gemfile`, and you are done.
+
+## NewCops: enable
+
+You may not use this setting in your project yet.  Upgrades to the latest Rubocop can include all kinds of changes, including removing support for the version of Ruby your project uses, or adding a cop that may not work with some of your syntax (e.g. [some use cases of 'module_function`](https://github.com/rubocop/rubocop/issues/5953#issuecomment-805921993)).  Accepting new cops arriving in a new version of Rubocop can feel risky, especially when it doesn't follow SemVer.
+
+But this gem shoehorns rubocop into SemVer... so `NewCops` is now safe(r)!  If you use a dependency greening tool like GitHub's `dependabot`, or the excellent alternatives [depfu](https://depfu.com/), and [`renovate`](https://www.whitesourcesoftware.com/free-developer-tools/renovate/), then you can see the effect of a minor / major version bumpin your CI Build!
 
 ## Development
 
@@ -44,7 +73,7 @@ See [LICENSE][license] for the official [Copyright Notice][copyright-notice-expl
 
 ## Code of Conduct
 
-Everyone interacting in the PrettyFeed project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/rubocop-semver/rubocop-ruby3_1/blob/main/CODE_OF_CONDUCT.md).
+Everyone interacting in the Rubocop::Ruby31 project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/rubocop-semver/rubocop-ruby3_1/blob/main/CODE_OF_CONDUCT.md).
 
 ## Versioning
 
