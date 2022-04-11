@@ -20,7 +20,8 @@ if RUN_COVERAGE
     enable_coverage :branch
     primary_coverage :branch
     add_filter "spec"
-    add_filter "lib/pretty_feed/version.rb"
+    # Why exclude version.rb? See: https://github.com/simplecov-ruby/simplecov/issues/557#issuecomment-410105995
+    add_filter "lib/rubocop/ruby3_1/version.rb"
     track_files "**/*.rb"
 
     if ALL_FORMATTERS
