@@ -1,4 +1,11 @@
-The Rubocop Logo - rubocop-logo-120px.png (resized)
+Tools Used
+
+SVG Sources: <https://worldvectorlogo.com/> and <https://simpleicons.org/>
+Base64 Converter: <https://codebeautify.org/svg-to-base64-converter>
+
+---
+
+The Rubocop Logo - rubocop-logo.svg (converted to Base64 and embedded by @pboling to support Github dark theme)
 
 Source: rubocop/rubocop <https://github.com/rubocop/rubocop/blob/master/logo/rubo-logo-symbol.png?raw=true>
 Author: Copyright (c) 2014 Bozhidar Batsov
@@ -14,7 +21,7 @@ License: https://creativecommons.org/licenses/by-sa/2.5
 
 ---
 
-The SemVer Logo - semver-logo.svg (renamed)
+The SemVer Logo - semver-logo.svg (converted to Base64 and embedded by @pboling to support Github dark theme)
 
 Original Source: https://github.com/semver/semver/issues/171#issuecomment-656520590
 Official Source: <https://github.com/semver/semver.org/tree/gh-pages/assets>

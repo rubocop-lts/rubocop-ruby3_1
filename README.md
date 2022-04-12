@@ -1,13 +1,14 @@
-|                                                                                               |                                                                                                  |                                                                   |
-|:----------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
-| [![Rubocop Logo, Copyright (c) 2014 Bozhidar Batsov, MIT License][rubocop-logo]][rubocop-url] | [![Ruby Logo, Yukihiro Matsumoto, Ruby Visual Identity Team, CC BY-SA 2.5][ruby-logo]][ruby-url] | [![Semantic Versioning Logo by @maxhaz][semver-logo]][semver-url] |
-
-[rubocop-logo]: https://github.com/rubocop-semver/rubocop-ruby3_1/raw/main/docs/images/logo/rubocop-logo-120px.png
-[rubocop-url]: https://rubocop.org
-[ruby-logo]: https://github.com/rubocop-semver/rubocop-ruby3_1/raw/main/docs/images/logo/ruby-logo.svg
-[ruby-url]: https://www.ruby-lang.org/
-[semver-logo]: https://github.com/rubocop-semver/rubocop-ruby3_1/raw/main/docs/images/logo/semver-logo.svg
-[semver-url]: https://semver.org/
+<p align="center">
+    <a href="https://rubocop.org"  target="_blank" rel="noopener">
+        <img width="120px" src="https://github.com/rubocop-semver/rubocop-ruby3_1/raw/main/docs/images/logo/rubocop-logo.svg?raw=true" alt="Rubocop Logo, Copyright (c) 2014 Bozhidar Batsov, MIT License">
+    </a>
+    <a href="https://www.ruby-lang.org/" target="_blank" rel="noopener">
+      <img width="120px" src="https://github.com/rubocop-semver/rubocop-ruby3_1/raw/main/docs/images/logo/ruby-logo.svg?raw=true" alt="Yukihiro Matsumoto, Ruby Visual Identity Team, CC BY-SA 2.5">
+    </a>
+    <a href="https://semver.org/" target="_blank" rel="noopener">
+      <img width="120px" src="https://github.com/rubocop-semver/rubocop-ruby3_1/raw/main/docs/images/logo/semver-logo.svg?raw=true" alt="SemVer.org Logo by @maxhaz">
+    </a>
+</p>
 
 # Rubocop::Ruby31
 

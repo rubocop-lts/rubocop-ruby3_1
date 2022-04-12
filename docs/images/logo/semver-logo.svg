@@ -1,15 +1,15 @@
 <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-<title>SemVer</title>
-<foreignObject width="100%" height="100%">
-  <div xmlns="http://www.w3.org/1999/xhtml">
-    <style>
-      img { display: block; }
-      @media (prefers-color-scheme: dark) {
+  <title>SemVer</title>
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        img { display: block; }
+        @media (prefers-color-scheme: dark) {
         img { filter: invert(1); }
-      }
-    </style>
+        }
+      </style>
 
-    <img src="data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+U2VtVmVyPC90aXRsZT48cGF0aCBkPSJNLjM1NyA5LjAyNEExMi4wNyAxMi4wNyAwIDAwMi45NyAxOS44NjdhMTIuMDUxIDEyLjA1MSAwIDAwMTAuMzggNC4wNjNjNy43NjgtLjcwMyAxMy4wODYtOS43OTkgOS41MTctMTYuOC0uNDE2LTEuMTktMi4wNy0uMzY4LTEuOTAzLjU5Ni4yODcuNy41MjYgMS40MjEuNzEzIDIuMTU1YTkuOTgzIDkuOTgzIDAgMDEtMy45MjYgMTAuMjUgOS45NjUgOS45NjUgMCAwMS0xNC44MDctMy44MDlBOS45ODQgOS45ODQgMCAwMTQuNDQgNS40NDhhOS45NjggOS45NjggMCAwMTQuODUtMy4wNDQgOS44NjggOS44NjggMCAwMTcuMDIuNjMxLjMzMy4zMzMgMCAwMS4xNTUuNDI5bC0zLjk2MiAxMC42MmMtLjEwNy44MS0uNjkuNzg2LS43OTcgMGwtMi4zOC03LjM3YTEuNTcyIDEuNTcyIDAgMDAtLjc3My0uOTg4Yy0xLjE5LS41Ni0zLjA5My42NjctMi4zNzkgMi4xNTVsMy45MTQgMTAuNDQxYy41MjQgMS4zOTMgMS4wMjMgMS44MzQgMi4wNTggMS44MzRzMS41MzUtLjQ0IDIuMDU4LTEuODM0TDIwIDMuOTRhMS4wMzYgMS4wMzYgMCAwMC0uMzY5LTEuMTlDMTMuMS0yLjkwNyAyLjMyLjY0MS4zNTcgOS4wMjN6Ii8+PC9zdmc+" />
-  </div>
-</foreignObject>
+      <img src="data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+U2VtVmVyPC90aXRsZT48cGF0aCBkPSJNLjM1NyA5LjAyNEExMi4wNyAxMi4wNyAwIDAwMi45NyAxOS44NjdhMTIuMDUxIDEyLjA1MSAwIDAwMTAuMzggNC4wNjNjNy43NjgtLjcwMyAxMy4wODYtOS43OTkgOS41MTctMTYuOC0uNDE2LTEuMTktMi4wNy0uMzY4LTEuOTAzLjU5Ni4yODcuNy41MjYgMS40MjEuNzEzIDIuMTU1YTkuOTgzIDkuOTgzIDAgMDEtMy45MjYgMTAuMjUgOS45NjUgOS45NjUgMCAwMS0xNC44MDctMy44MDlBOS45ODQgOS45ODQgMCAwMTQuNDQgNS40NDhhOS45NjggOS45NjggMCAwMTQuODUtMy4wNDQgOS44NjggOS44NjggMCAwMTcuMDIuNjMxLjMzMy4zMzMgMCAwMS4xNTUuNDI5bC0zLjk2MiAxMC42MmMtLjEwNy44MS0uNjkuNzg2LS43OTcgMGwtMi4zOC03LjM3YTEuNTcyIDEuNTcyIDAgMDAtLjc3My0uOTg4Yy0xLjE5LS41Ni0zLjA5My42NjctMi4zNzkgMi4xNTVsMy45MTQgMTAuNDQxYy41MjQgMS4zOTMgMS4wMjMgMS44MzQgMi4wNTggMS44MzRzMS41MzUtLjQ0IDIuMDU4LTEuODM0TDIwIDMuOTRhMS4wMzYgMS4wMzYgMCAwMC0uMzY5LTEuMTlDMTMuMS0yLjkwNyAyLjMyLjY0MS4zNTcgOS4wMjN6Ii8+PC9zdmc+" />
+    </div>
+  </foreignObject>
 </svg>
