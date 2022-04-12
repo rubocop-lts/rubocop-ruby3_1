@@ -1,20 +1,22 @@
-<p align="center">
-    <a href="https://rubocop.org/" target="_blank" rel="noopener">
-      <img width="120px" src="https://github.com/rubocop-semver/rubocop-ruby3_1/raw/main/docs/images/logo/rubocop-logo-120px.png?raw=true#gh-light-mode-only" alt="Gotmoji Logo Copyright (c) 2016-2022 Carlos Cuesta, MIT License">
-    </a>
-    <a href="https://www.ruby-lang.org/" target="_blank" rel="noopener">
-      <img width="120px" src="https://github.com/rubocop-semver/rubocop-ruby3_1/raw/main/docs/images/logo/ruby-logo.svg?raw=true" alt="Yukihiro Matsumoto, Ruby Visual Identity Team, CC BY-SA 2.5">
-    </a>
-    <a href="https://semver.org/" target="_blank" rel="noopener">
-      <img width="120px" src="https://github.com/rubocop-semver/rubocop-ruby3_1/raw/main/docs/images/logo/semver-logo.svg?raw=true#gh-light-mode-only" alt="Semantic Versioning Logo by @maxhaz">
-    </a>
-</p>
+|                                                              |                                                |                                                           |
+|:-------------------------------------------------------------|------------------------------------------------|-----------------------------------------------------------|
+| [![rubocop-logo-provenance][rubocop-logo]][rubocop-url]      | [![ruby-logo-provenance][ruby-logo]][ruby-url] | [![semver-logo-provenance][semver-logo]][semver-url] |
+
+[rubocop-logo-provenance]: Rubocop Logo, Copyright (c) 2014 Bozhidar Batsov, MIT License
+[ruby-logo-provenance]: Ruby Logo, Yukihiro Matsumoto, Ruby Visual Identity Team, CC BY-SA 2.5
+[semver-logo-provenance]: Semantic Versioning Logo by @maxhaz
+[rubocop-logo]: https://github.com/rubocop-semver/rubocop-ruby3_1/raw/main/docs/images/logo/rubocop-logo-120px.png
+[rubocop-url]: https://rubocop.org
+[ruby-logo]: https://github.com/rubocop-semver/rubocop-ruby3_1/raw/main/docs/images/logo/ruby-logo.svg
+[ruby-url]: https://www.ruby-lang.org/
+[semver-logo]: https://github.com/rubocop-semver/rubocop-ruby3_1/raw/main/docs/images/logo/semver-logo.svg
+[semver-url]: https://semver.org/
 
 # Rubocop::Ruby31
 
 See the intro [blog post](https://dev.to/pboling/rubocop-ruby-matrix-gems-nj)!
 
-This gem requires no other gems.  It depends on `rubocop`, but does not `require 'rubocop'`.  The purpose of this gem is to constrain the dependency in a [SemVer compliant](https://semver.org/) (Semantic Versioning) way that aligns with the the minimum Ruby version a project will work with.
+This gem requires no other gems.  It depends on `rubocop`, but does not `require 'rubocop'`.  The purpose of this gem is to constrain the `rubocop` dependency of a project in a [SemVer compliant](https://semver.org/) (Semantic Versioning) way that aligns with the the desired minimum compatible/supported Ruby version.
 
 ## Installation
 
