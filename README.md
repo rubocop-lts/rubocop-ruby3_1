@@ -1,6 +1,6 @@
 <p align="center">
     <a href="https://rubocop.org"  target="_blank" rel="noopener">
-        <img width="120px" src="https://github.com/rubocop-semver/rubocop-ruby3_1/raw/main/docs/images/logo/rubocop-logo.svg?raw=true" alt="Rubocop Logo, Copyright (c) 2014 Bozhidar Batsov, MIT License">
+      <img width="120px" src="https://github.com/rubocop-semver/rubocop-ruby3_1/raw/main/docs/images/logo/rubocop-logo.svg?raw=true" alt="Rubocop Logo, Copyright (c) 2014 Bozhidar Batsov, MIT License">
     </a>
     <a href="https://www.ruby-lang.org/" target="_blank" rel="noopener">
       <img width="120px" src="https://github.com/rubocop-semver/rubocop-ruby3_1/raw/main/docs/images/logo/ruby-logo.svg?raw=true" alt="Yukihiro Matsumoto, Ruby Visual Identity Team, CC BY-SA 2.5">
