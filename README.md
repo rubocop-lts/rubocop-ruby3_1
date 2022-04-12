@@ -1,10 +1,7 @@
-|                                                              |                                                |                                                           |
-|:-------------------------------------------------------------|------------------------------------------------|-----------------------------------------------------------|
-| [![rubocop-logo-provenance][rubocop-logo]][rubocop-url]      | [![ruby-logo-provenance][ruby-logo]][ruby-url] | [![semver-logo-provenance][semver-logo]][semver-url] |
+|                                                                                               |                                                                                                  |                                                                   |
+|:----------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
+| [![Rubocop Logo, Copyright (c) 2014 Bozhidar Batsov, MIT License][rubocop-logo]][rubocop-url] | [![Ruby Logo, Yukihiro Matsumoto, Ruby Visual Identity Team, CC BY-SA 2.5][ruby-logo]][ruby-url] | [![Semantic Versioning Logo by @maxhaz][semver-logo]][semver-url] |
 
-[rubocop-logo-provenance]: Rubocop Logo, Copyright (c) 2014 Bozhidar Batsov, MIT License
-[ruby-logo-provenance]: Ruby Logo, Yukihiro Matsumoto, Ruby Visual Identity Team, CC BY-SA 2.5
-[semver-logo-provenance]: Semantic Versioning Logo by @maxhaz
 [rubocop-logo]: https://github.com/rubocop-semver/rubocop-ruby3_1/raw/main/docs/images/logo/rubocop-logo-120px.png
 [rubocop-url]: https://rubocop.org
 [ruby-logo]: https://github.com/rubocop-semver/rubocop-ruby3_1/raw/main/docs/images/logo/ruby-logo.svg
