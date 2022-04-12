@@ -1,3 +1,15 @@
+<p align="center">
+    <a href="https://rubocop.org/" target="_blank" rel="noopener">
+      <img width="120px" src="https://github.com/rubocop-semver/rubocop-ruby3_1/raw/main/docs/images/logo/rubocop-logo-120px.png?raw=true" alt="Gotmoji Logo Copyright (c) 2016-2022 Carlos Cuesta, MIT License">
+    </a>
+    <a href="https://www.ruby-lang.org/" target="_blank" rel="noopener">
+      <img width="120px" src="https://github.com/rubocop-semver/rubocop-ruby3_1/raw/main/docs/images/logo/ruby-logo.svg?raw=true" alt="Yukihiro Matsumoto, Ruby Visual Identity Team, CC BY-SA 2.5">
+    </a>
+    <a href="https://semver.org/" target="_blank" rel="noopener">
+      <img width="120px" src="https://github.com/rubocop-semver/rubocop-ruby3_1/raw/main/docs/images/logo/semver-logo.svg?raw=true" alt="Semantic Versioning Logo by @maxhaz">
+    </a>
+</p>
+
 # Rubocop::Ruby31
 
 See the intro [blog post](https://dev.to/pboling/rubocop-ruby-matrix-gems-nj)!
