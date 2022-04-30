@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - 'main'
-      - 'master'
       - '*-maintenance'
       - '*-dev'
       - '*-stable'
@@ -33,9 +32,8 @@ jobs:
       matrix:
         experimental: [false]
         gemfile:
-          - awesome_print
-          - colored2
-          - colorize
+          - ruby
+          - rails
         rubygems:
           - latest
         bundler:
