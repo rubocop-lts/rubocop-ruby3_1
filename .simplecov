@@ -25,7 +25,11 @@ if RUN_COVERAGE
     track_files "**/*.rb"
 
     if ALL_FORMATTERS
-      command_name "#{ENV["GITHUB_WORKFLOW"]} Job #{ENV["GITHUB_RUN_ID"]}:#{ENV["GITHUB_RUN_NUMBER"]}" if ENV["CI"]
+      if ENV["CI"]
+        command_name "#{ENV.fetch("GITHUB_WORKFLOW",
+                                  nil)} Job #{ENV.fetch("GITHUB_RUN_ID",
+                                                        nil)}:#{ENV.fetch("GITHUB_RUN_NUMBER", nil)}"
+      end
 
       SimpleCov::Formatter::LcovFormatter.config do |c|
         c.report_with_single_file = true
