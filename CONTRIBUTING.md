@@ -14,7 +14,7 @@ Made with [contributors-img][contrib-rocks].
 
 [comment]: <> (Following links are used by README, CONTRIBUTING)
 
-[conduct]: https://github.com/rubocop-semver/rubocop-ruby3_1/blob/master/CODE_OF_CONDUCT.md
+[conduct]: https://github.com/rubocop-semver/rubocop-ruby3_1/blob/main/CODE_OF_CONDUCT.md
 
 [contrib-rocks]: https://contrib.rocks
 

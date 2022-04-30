@@ -21,11 +21,22 @@ License: https://creativecommons.org/licenses/by-sa/2.5
 
 ---
 
-The SemVer Logo - semver-logo.svg (converted to Base64 and embedded by @pboling to support Github dark theme)
+The SemVer Logo (Light) - semver-light.svg (from https://simpleicons.org/icons/semver.svg)
 
 Original Source: https://github.com/semver/semver/issues/171#issuecomment-656520590
 Official Source: <https://github.com/semver/semver.org/tree/gh-pages/assets>
 Converted to SVG: <https://simpleicons.org/icons/semver.svg>
-Author: @maxhaz <https://github.com/maxhaz>
+Author: @maxhaz <https://github.com/maxhaz>, CC BY 4.0 <https://github.com/semver/semver.org/issues/256#issuecomment-1096936591>
 Pull Request: <https://github.com/semver/semver.org/pull/298/files>
-License: TBD <https://github.com/semver/semver.org/issues/256#issuecomment-1096129599>
+License: CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>
+
+---
+
+The SemVer Logo (Dark) - semver-dark.svg (from https://api.iconify.design/simple-icons/semver.svg?color=white&height=120)
+
+Original Source: https://github.com/semver/semver/issues/171#issuecomment-656520590
+Official Source: <https://github.com/semver/semver.org/tree/gh-pages/assets>
+Converted to SVG: <https://api.iconify.design/simple-icons/semver.svg?color=white&height=120>
+Author: @maxhaz <https://github.com/maxhaz>, CC BY 4.0 <https://github.com/semver/semver.org/issues/256#issuecomment-1096936591>
+Pull Request: <https://github.com/semver/semver.org/pull/298/files>
+License: CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>
