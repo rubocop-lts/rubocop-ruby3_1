@@ -5,8 +5,11 @@
     <a href="https://www.ruby-lang.org/" target="_blank" rel="noopener">
       <img width="120px" src="https://github.com/rubocop-semver/rubocop-ruby3_1/raw/main/docs/images/logo/ruby-logo.svg?raw=true" alt="Yukihiro Matsumoto, Ruby Visual Identity Team, CC BY-SA 2.5">
     </a>
-    <a href="https://semver.org/" target="_blank" rel="noopener">
-      <img width="120px" src="https://github.com/rubocop-semver/rubocop-ruby3_1/raw/main/docs/images/logo/semver-logo.svg?raw=true" alt="SemVer.org Logo by @maxhaz">
+    <a href="https://semver.org/#gh-light-mode-only" target="_blank" rel="noopener">
+      <img width="120px" src="https://github.com/rubocop-semver/rubocop-ruby3_1/raw/main/docs/images/logo/semver-light.svg?raw=true" alt="SemVer.org Logo by @maxhaz">
+    </a>
+    <a href="https://semver.org/#gh-dark-mode-only" target="_blank" rel="noopener">
+      <img width="120px" src="https://github.com/rubocop-semver/rubocop-ruby3_1/raw/main/docs/images/logo/semver-dark.svg?raw=true" alt="SemVer.org Logo by @maxhaz">
     </a>
 </p>
 
