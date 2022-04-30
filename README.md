@@ -40,10 +40,11 @@ inherit_gem:
   rubocop-ruby3_1: rubocop.yml
 ```
 
-This has the same effect as you declaring the following in your `.rubocop.yml`, and note that if you do have this in your's you should remove it to gain the full benefit of this gem:
+This has the same effect as you declaring the following in your `.rubocop.yml`:
 
 ```yaml
 AllCops:
+  # remove if already present in your `.rubocop.yml` to gain the full benefit of this gem!
   TargetRubyVersion: 3.1
   NewCops: enable
 ```
