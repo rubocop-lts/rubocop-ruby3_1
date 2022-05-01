@@ -44,6 +44,10 @@ minimiszing the risk of a rubocop minor / patch upgrade breaking the build. See 
 official [compatibility matrix](https://github.com/rubocop/rubocop/blob/master/docs/modules/ROOT/pages/compatibility.adoc#support-matrix) (
 Rubocop documentation)
 
+## Stable
+
+All releases of this gem are stable releases. The first version is `1.0.0`.
+
 ## Installation
 
 Install the gem and add to the application's Gemfile by executing:
