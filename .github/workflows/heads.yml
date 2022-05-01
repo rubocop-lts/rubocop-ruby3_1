@@ -33,14 +33,11 @@ jobs:
         experimental: [true]
         gemfile:
           - ruby
-          - rails
         rubygems:
           - latest
         bundler:
           - latest
         ruby:
-          - truffleruby+graalvm-head
-          - truffleruby-head
           - jruby-head
           - ruby-head
         include:
