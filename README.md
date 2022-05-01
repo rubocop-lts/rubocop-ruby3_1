@@ -22,7 +22,7 @@ See the intro [blog post](https://dev.to/pboling/rubocop-ruby-matrix-gems-nj)!
 
 This gem requires no other gems. It depends on `rubocop`, but does not `require 'rubocop'`.
 
-Awareness of `rubocop`'s lack of [SemVer][semver] adherence by Rubocop isn't evenly dispersed in the Ruby community.
+Awareness of `rubocop`'s lack of [SemVer][semver] adherence isn't evenly dispersed in the Ruby community.
 
 The Rubocop team [has real reasons](https://github.com/semver/semver/issues/317) for not following SemVer, but if you've
 found this project their reasons likely weigh less, in your context (e.g. running `rubocop` from command line), than
@@ -30,7 +30,7 @@ what brought you here.
 
 <p align="left">
     <a href="https://metaredux.com/posts/2022/04/21/rubocop-turns-10.html" target="_blank" rel="noopener">
-      <img width="120px" src="https://github.com/rubocop-semver/rubocop-ruby3_1/raw/main/docs/images/rubocop-not-semver.png?raw=true" alt="Explanation of non-SemVer compliance, @bbatsov">
+      <img width="360px" src="https://github.com/rubocop-semver/rubocop-ruby3_1/raw/main/docs/images/rubocop-not-semver.png?raw=true" alt="Explanation of non-SemVer compliance, @bbatsov">
     </a>
 </p>
 
