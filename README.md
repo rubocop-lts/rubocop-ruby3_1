@@ -20,7 +20,28 @@
 
 See the intro [blog post](https://dev.to/pboling/rubocop-ruby-matrix-gems-nj)!
 
-This gem requires no other gems.  It depends on `rubocop`, but does not `require 'rubocop'`.  The purpose of this gem is to constrain the `rubocop` dependency of a project in a [SemVer compliant](https://semver.org/) (Semantic Versioning) way that aligns with the the desired minimum compatible/supported Ruby version.
+This gem requires no other gems. It depends on `rubocop`, but does not `require 'rubocop'`.
+
+Awareness of `rubocop`'s lack of [SemVer][semver] adherence by Rubocop isn't evenly dispersed in the Ruby community.
+
+The Rubocop team [has real reasons](https://github.com/semver/semver/issues/317) for not following SemVer, but if you've
+found this project their reasons likely weigh less, in your context (e.g. running `rubocop` from command line), than
+what brought you here.
+
+<p align="left">
+    <a href="https://metaredux.com/posts/2022/04/21/rubocop-turns-10.html" target="_blank" rel="noopener">
+      <img width="120px" src="https://github.com/rubocop-semver/rubocop-ruby3_1/raw/main/docs/images/rubocop-not-semver.png?raw=true" alt="Explanation of non-SemVer compliance, @bbatsov">
+    </a>
+</p>
+
+The purpose of this gem is to constrain the `rubocop` dependency of a project in
+a [SemVer compliant](https://semver.org/) (Semantic Versioning) way that aligns with the the desired minimum
+compatible/supported Ruby version.
+
+Adding this gem will facilitate the best practice of adding a `~> ` version constrained `rubocop` dependency, while
+minimiszing the risk of a rubocop minor / patch upgrade breaking the build. See the
+official [compatibility matrix](https://github.com/rubocop/rubocop/blob/master/docs/modules/ROOT/pages/compatibility.adoc#support-matrix) (
+Rubocop documentation)
 
 ## Installation
 
