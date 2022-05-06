@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.authors = ["Peter Boling"]
   spec.email = ["peter.boling@gmail.com"]
 
-  spec.summary = "Semantically Versioned Rubocop Dependency"
-  spec.description = "Links dependency on minimum Ruby version to maximum Rubocop version"
+  spec.summary = "Semantically Versioned RuboCop Dependency"
+  spec.description = "Links dependency on minimum Ruby version to maximum RuboCop version"
   spec.homepage = "https://github.com/rubocop-semver/rubocop-ruby3_1"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.1.0"
