@@ -16,6 +16,68 @@
     </a>
 </p>
 
+---
+
+NOTE: You might be interested in [`rubocop-lts`](https://github.com/rubocop-lts/rubocop-lts#-how-to-untie-gorgons-knot) which sits as a higher level than this gem, and can keep pace with whatever version of Ruby you happen to be on.
+
+| Gem Name                     | Version                             | Downloads                                                            | CI                                                                                                 | Activity                                                                                                                                              |
+|------------------------------|-------------------------------------|----------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`rubocop-lts`][⛳️lts-gh]    | [![Gem Version][⛳️lts-vi]][⛳️lts-g] | [![Total DL][🖇️lts-dti]][⛳️lts-g] [![DL Rank][🏘️lts-rti]][⛳️lts-g] | [![Current][🚎lts-cwfi]][🚎lts-cwf]                                                                | [![Open Issues][📗lts-ioi]][📗lts-io] [![Closed Issues][🚀lts-ici]][🚀lts-ic] [![Open PRs][💄lts-poi]][💄lts-po] [![Closed PRs][👽lts-pci]][👽lts-pc] |
+| [`rubocop-ruby3_1`][⛳️31-gh] | [![Gem Version][⛳️31-vi]][⛳️31-g]   | [![Total DL][🖇️31-dti]][⛳️31-g] [![DL Rank][🏘️31-rti]][⛳️31-g]     | [![Current][🚎31-cwfi]][🚎31-cwf] [![Heads][🖐31-hwfi]][🖐31-hwf]                                        | [![Open Issues][📗31-ioi]][📗31-io] [![Closed Issues][🚀31-ici]][🚀31-ic] [![Open PRs][💄31-poi]][💄31-po] [![Closed PRs][👽31-pci]][👽31-pc]         |
+
+<!-- columnar badge #s for Project Health table:
+⛳️
+🖇
+🏘
+🚎
+🖐
+🧮
+📗
+🚀
+💄
+👽
+-->
+
+[⛳️lts-vi]: http://img.shields.io/gem/v/rubocop-lts.svg
+[🖇️lts-dti]: https://img.shields.io/gem/dt/rubocop-lts.svg
+[🏘️lts-rti]: https://img.shields.io/gem/rt/rubocop-lts.svg
+[🚎lts-cwf]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/current.yml
+[🚎lts-cwfi]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/current.yml/badge.svg
+[🖐lts-hwf]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/heads.yml
+[🖐lts-hwfi]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/heads.yml/badge.svg
+[🧮lts-lwf]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/legacy.yml
+[🧮lts-lwfi]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/legacy.yml/badge.svg
+[📗lts-io]: https://github.com/rubocop-lts/rubocop-lts/issues
+[📗lts-ioi]: https://img.shields.io/github/issues-raw/rubocop-lts/rubocop-lts
+[🚀lts-ic]: https://github.com/rubocop-lts/rubocop-lts/issues?q=is%3Aissue+is%3Aclosed
+[🚀lts-ici]: https://img.shields.io/github/issues-closed-raw/rubocop-lts/rubocop-lts
+[💄lts-po]: https://github.com/rubocop-lts/rubocop-lts/pulls
+[💄lts-poi]: https://img.shields.io/github/issues-pr/rubocop-lts/rubocop-lts
+[👽lts-pc]: https://github.com/rubocop-lts/rubocop-lts/pulls?q=is%3Apr+is%3Aclosed
+[👽lts-pci]: https://img.shields.io/github/issues-pr-closed/rubocop-lts/rubocop-lts
+[⛳️lts-g]: https://rubygems.org/gems/rubocop-lts
+[⛳️lts-gh]: https://github.com/rubocop-lts/rubocop-lts
+
+[⛳️31-vi]: http://img.shields.io/gem/v/rubocop-ruby3_1.svg
+[🖇️31-dti]: https://img.shields.io/gem/dt/rubocop-ruby3_1.svg
+[🏘️31-rti]: https://img.shields.io/gem/rt/rubocop-ruby3_1.svg
+[🚎31-cwf]: https://github.com/rubocop-lts/rubocop-ruby3_1/actions/workflows/current.yml
+[🚎31-cwfi]: https://github.com/rubocop-lts/rubocop-ruby3_1/actions/workflows/current.yml/badge.svg
+[🖐31-hwf]: https://github.com/rubocop-lts/rubocop-ruby3_1/actions/workflows/heads.yml
+[🖐31-hwfi]: https://github.com/rubocop-lts/rubocop-ruby3_1/actions/workflows/heads.yml/badge.svg
+[🧮31-lwf]: https://github.com/rubocop-lts/rubocop-ruby3_1/actions/workflows/legacy.yml
+[🧮31-lwfi]: https://github.com/rubocop-lts/rubocop-ruby3_1/actions/workflows/legacy.yml/badge.svg
+[📗31-io]: https://github.com/rubocop-lts/rubocop-ruby3_1/issues
+[📗31-ioi]: https://img.shields.io/github/issues-raw/rubocop-lts/rubocop-ruby3_1
+[🚀31-ic]: https://github.com/rubocop-lts/rubocop-ruby3_1/issues?q=is%3Aissue+is%3Aclosed
+[🚀31-ici]: https://img.shields.io/github/issues-closed-raw/rubocop-lts/rubocop-ruby3_1
+[💄31-po]: https://github.com/rubocop-lts/rubocop-ruby3_1/pulls
+[💄31-poi]: https://img.shields.io/github/issues-pr/rubocop-lts/rubocop-ruby3_1
+[👽31-pc]: https://github.com/rubocop-lts/rubocop-ruby3_1/pulls?q=is%3Apr+is%3Aclosed
+[👽31-pci]: https://img.shields.io/github/issues-pr-closed/rubocop-lts/rubocop-ruby3_1
+[⛳️31-g]: https://rubygems.org/gems/rubocop-ruby3_1
+[⛳️31-gh]: https://github.com/rubocop-lts/rubocop-ruby3_1
+
 # Rubocop::Ruby31
 
 See the intro [blog post](https://dev.to/pboling/rubocop-ruby-matrix-gems-nj)!

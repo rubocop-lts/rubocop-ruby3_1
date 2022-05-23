@@ -2,6 +2,6 @@
 
 module Rubocop
   module Ruby31
-    VERSION = "1.0.3"
+    VERSION = "1.0.4"
   end
 end
