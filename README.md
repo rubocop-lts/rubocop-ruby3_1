@@ -1,24 +1,24 @@
 <p align="center">
     <a href="https://rubocop.org#gh-light-mode-only"  target="_blank" rel="noopener">
-      <img height="120px" src="https://github.com/rubocop-lts/rubocop-ruby3_1/raw/main/docs/images/logo/rubocop-light.svg?raw=true" alt="SVG RuboCop Logo, Copyright (c) 2014 Dimiter Petrov, CC BY-NC 4.0, see docs/images/logo/README.txt">
+      <img height="120px" src="https://gitlab.com/rubocop-lts/rubocop-ruby3_1/raw/main/docs/images/logo/rubocop-light.svg?raw=true" alt="SVG RuboCop Logo, Copyright (c) 2014 Dimiter Petrov, CC BY-NC 4.0, see docs/images/logo/README.txt">
     </a>
     <a href="https://rubocop.org#gh-dark-mode-only"  target="_blank" rel="noopener">
-      <img height="120px" src="https://github.com/rubocop-lts/rubocop-ruby3_1/raw/main/docs/images/logo/rubocop-dark.svg?raw=true" alt="SVG RuboCop Logo, Copyright (c) 2014 Dimiter Petrov, CC BY-NC 4.0, see docs/images/logo/README.txt">
+      <img height="120px" src="https://gitlab.com/rubocop-lts/rubocop-ruby3_1/raw/main/docs/images/logo/rubocop-dark.svg?raw=true" alt="SVG RuboCop Logo, Copyright (c) 2014 Dimiter Petrov, CC BY-NC 4.0, see docs/images/logo/README.txt">
     </a>
     <a href="https://www.ruby-lang.org/" target="_blank" rel="noopener">
-      <img height="120px" src="https://github.com/rubocop-lts/rubocop-ruby3_1/raw/main/docs/images/logo/ruby-logo.svg?raw=true" alt="Yukihiro Matsumoto, Ruby Visual Identity Team, CC BY-SA 2.5, see docs/images/logo/README.txt">
+      <img height="120px" src="https://gitlab.com/rubocop-lts/rubocop-ruby3_1/raw/main/docs/images/logo/ruby-logo.svg?raw=true" alt="Yukihiro Matsumoto, Ruby Visual Identity Team, CC BY-SA 2.5, see docs/images/logo/README.txt">
     </a>
     <a href="https://semver.org/#gh-light-mode-only" target="_blank" rel="noopener">
-      <img height="120px" src="https://github.com/rubocop-lts/rubocop-ruby3_1/raw/main/docs/images/logo/semver-light.svg?raw=true" alt="SemVer.org Logo by @maxhaz, see docs/images/logo/README.txt">
+      <img height="120px" src="https://gitlab.com/rubocop-lts/rubocop-ruby3_1/raw/main/docs/images/logo/semver-light.svg?raw=true" alt="SemVer.org Logo by @maxhaz, see docs/images/logo/README.txt">
     </a>
     <a href="https://semver.org/#gh-dark-mode-only" target="_blank" rel="noopener">
-      <img height="120px" src="https://github.com/rubocop-lts/rubocop-ruby3_1/raw/main/docs/images/logo/semver-dark.svg?raw=true" alt="SemVer.org Logo by @maxhaz, see docs/images/logo/README.txt">
+      <img height="120px" src="https://gitlab.com/rubocop-lts/rubocop-ruby3_1/raw/main/docs/images/logo/semver-dark.svg?raw=true" alt="SemVer.org Logo by @maxhaz, see docs/images/logo/README.txt">
     </a>
 </p>
 
 ---
 
-NOTE: You might be interested in [`rubocop-lts`](https://github.com/rubocop-lts/rubocop-lts#-how-to-untie-gorgons-knot) which sits as a higher level than this gem, and can keep pace with whatever version of Ruby you happen to be on.
+NOTE: You might be interested in [`rubocop-lts`](https://gitlab.com/rubocop-lts/rubocop-lts#-how-to-untie-gorgons-knot) which sits as a higher level than this gem, and can keep pace with whatever version of Ruby you happen to be on.
 
 | Gem Name                     | Version                             | Downloads                                                            | CI                                                                                                 | Activity                                                                                                                                              |
 |------------------------------|-------------------------------------|----------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -41,42 +41,42 @@ NOTE: You might be interested in [`rubocop-lts`](https://github.com/rubocop-lts/
 [⛳️lts-vi]: http://img.shields.io/gem/v/rubocop-lts.svg
 [🖇️lts-dti]: https://img.shields.io/gem/dt/rubocop-lts.svg
 [🏘️lts-rti]: https://img.shields.io/gem/rt/rubocop-lts.svg
-[🚎lts-cwf]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/current.yml
-[🚎lts-cwfi]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/current.yml/badge.svg
-[🖐lts-hwf]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/heads.yml
-[🖐lts-hwfi]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/heads.yml/badge.svg
-[🧮lts-lwf]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/legacy.yml
-[🧮lts-lwfi]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/legacy.yml/badge.svg
-[📗lts-io]: https://github.com/rubocop-lts/rubocop-lts/issues
+[🚎lts-cwf]: https://gitlab.com/rubocop-lts/rubocop-lts/actions/workflows/current.yml
+[🚎lts-cwfi]: https://gitlab.com/rubocop-lts/rubocop-lts/actions/workflows/current.yml/badge.svg
+[🖐lts-hwf]: https://gitlab.com/rubocop-lts/rubocop-lts/actions/workflows/heads.yml
+[🖐lts-hwfi]: https://gitlab.com/rubocop-lts/rubocop-lts/actions/workflows/heads.yml/badge.svg
+[🧮lts-lwf]: https://gitlab.com/rubocop-lts/rubocop-lts/actions/workflows/legacy.yml
+[🧮lts-lwfi]: https://gitlab.com/rubocop-lts/rubocop-lts/actions/workflows/legacy.yml/badge.svg
+[📗lts-io]: https://gitlab.com/rubocop-lts/rubocop-lts/issues
 [📗lts-ioi]: https://img.shields.io/github/issues-raw/rubocop-lts/rubocop-lts
-[🚀lts-ic]: https://github.com/rubocop-lts/rubocop-lts/issues?q=is%3Aissue+is%3Aclosed
+[🚀lts-ic]: https://gitlab.com/rubocop-lts/rubocop-lts/issues?q=is%3Aissue+is%3Aclosed
 [🚀lts-ici]: https://img.shields.io/github/issues-closed-raw/rubocop-lts/rubocop-lts
-[💄lts-po]: https://github.com/rubocop-lts/rubocop-lts/pulls
+[💄lts-po]: https://gitlab.com/rubocop-lts/rubocop-lts/pulls
 [💄lts-poi]: https://img.shields.io/github/issues-pr/rubocop-lts/rubocop-lts
-[👽lts-pc]: https://github.com/rubocop-lts/rubocop-lts/pulls?q=is%3Apr+is%3Aclosed
+[👽lts-pc]: https://gitlab.com/rubocop-lts/rubocop-lts/pulls?q=is%3Apr+is%3Aclosed
 [👽lts-pci]: https://img.shields.io/github/issues-pr-closed/rubocop-lts/rubocop-lts
 [⛳️lts-g]: https://rubygems.org/gems/rubocop-lts
-[⛳️lts-gh]: https://github.com/rubocop-lts/rubocop-lts
+[⛳️lts-gh]: https://gitlab.com/rubocop-lts/rubocop-lts
 
 [⛳️31-vi]: http://img.shields.io/gem/v/rubocop-ruby3_1.svg
 [🖇️31-dti]: https://img.shields.io/gem/dt/rubocop-ruby3_1.svg
 [🏘️31-rti]: https://img.shields.io/gem/rt/rubocop-ruby3_1.svg
-[🚎31-cwf]: https://github.com/rubocop-lts/rubocop-ruby3_1/actions/workflows/current.yml
-[🚎31-cwfi]: https://github.com/rubocop-lts/rubocop-ruby3_1/actions/workflows/current.yml/badge.svg
-[🖐31-hwf]: https://github.com/rubocop-lts/rubocop-ruby3_1/actions/workflows/heads.yml
-[🖐31-hwfi]: https://github.com/rubocop-lts/rubocop-ruby3_1/actions/workflows/heads.yml/badge.svg
-[🧮31-lwf]: https://github.com/rubocop-lts/rubocop-ruby3_1/actions/workflows/legacy.yml
-[🧮31-lwfi]: https://github.com/rubocop-lts/rubocop-ruby3_1/actions/workflows/legacy.yml/badge.svg
-[📗31-io]: https://github.com/rubocop-lts/rubocop-ruby3_1/issues
+[🚎31-cwf]: https://gitlab.com/rubocop-lts/rubocop-ruby3_1/actions/workflows/current.yml
+[🚎31-cwfi]: https://gitlab.com/rubocop-lts/rubocop-ruby3_1/actions/workflows/current.yml/badge.svg
+[🖐31-hwf]: https://gitlab.com/rubocop-lts/rubocop-ruby3_1/actions/workflows/heads.yml
+[🖐31-hwfi]: https://gitlab.com/rubocop-lts/rubocop-ruby3_1/actions/workflows/heads.yml/badge.svg
+[🧮31-lwf]: https://gitlab.com/rubocop-lts/rubocop-ruby3_1/actions/workflows/legacy.yml
+[🧮31-lwfi]: https://gitlab.com/rubocop-lts/rubocop-ruby3_1/actions/workflows/legacy.yml/badge.svg
+[📗31-io]: https://gitlab.com/rubocop-lts/rubocop-ruby3_1/-/issues
 [📗31-ioi]: https://img.shields.io/github/issues-raw/rubocop-lts/rubocop-ruby3_1
-[🚀31-ic]: https://github.com/rubocop-lts/rubocop-ruby3_1/issues?q=is%3Aissue+is%3Aclosed
+[🚀31-ic]: https://gitlab.com/rubocop-lts/rubocop-ruby3_1/-/issues?q=is%3Aissue+is%3Aclosed
 [🚀31-ici]: https://img.shields.io/github/issues-closed-raw/rubocop-lts/rubocop-ruby3_1
-[💄31-po]: https://github.com/rubocop-lts/rubocop-ruby3_1/pulls
+[💄31-po]: https://gitlab.com/rubocop-lts/rubocop-ruby3_1/-/merge_requests
 [💄31-poi]: https://img.shields.io/github/issues-pr/rubocop-lts/rubocop-ruby3_1
-[👽31-pc]: https://github.com/rubocop-lts/rubocop-ruby3_1/pulls?q=is%3Apr+is%3Aclosed
+[👽31-pc]: https://gitlab.com/rubocop-lts/rubocop-ruby3_1/-/merge_requests?q=is%3Apr+is%3Aclosed
 [👽31-pci]: https://img.shields.io/github/issues-pr-closed/rubocop-lts/rubocop-ruby3_1
 [⛳️31-g]: https://rubygems.org/gems/rubocop-ruby3_1
-[⛳️31-gh]: https://github.com/rubocop-lts/rubocop-ruby3_1
+[⛳️31-gh]: https://gitlab.com/rubocop-lts/rubocop-ruby3_1
 
 # Rubocop::Ruby31
 
@@ -88,12 +88,12 @@ Awareness of `rubocop`'s lack of [SemVer][semver] adherence isn't evenly dispers
 
 The Rubocop team [has real reasons](https://github.com/semver/semver/issues/317)
 for [not following SemVer](https://github.com/rubocop/rubocop/issues/4243), but if you've
-found this project their reasons likely weigh less, in your context (e.g. running `rubocop` from command line), than
-what brought you here.
+found this project it is possible those reasons are less important
+than what brought you here for your context (e.g. running `rubocop` from command line).
 
 <p align="left">
     <a href="https://metaredux.com/posts/2022/04/21/rubocop-turns-10.html" target="_blank" rel="noopener">
-      <img width="360px" src="https://github.com/rubocop-lts/rubocop-ruby3_1/raw/main/docs/images/rubocop-not-semver.png?raw=true" alt="Explanation of non-SemVer compliance, @bbatsov">
+      <img width="360px" src="https://gitlab.com/rubocop-lts/rubocop-ruby3_1/raw/main/docs/images/rubocop-not-semver.png?raw=true" alt="Explanation of non-SemVer compliance, @bbatsov">
     </a>
 </p>
 
@@ -128,18 +128,18 @@ official [compatibility matrix][rubocop-matrix] for `rubocop`.
 | [rubocop-ruby3_0][rr30] |               |           |           |           |           |           |           | 🛠        | 🛠        | 🛠        | 🧊 🏃‍ 🛠 | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍     |
 | [rubocop-ruby3_1][rr31] |               |           |           |           |           |           |           | 🛠        | 🛠        | 🛠        | 🛠        | 🧊 🏃‍ 🛠 | 🧊 🏃‍    | 🧊 🏃‍     |
 
-[rr19]: https://github.com/rubocop-lts/rubocop-ruby1_9
-[rr20]: https://github.com/rubocop-lts/rubocop-ruby2_0
-[rr21]: https://github.com/rubocop-lts/rubocop-ruby2_1
-[rr22]: https://github.com/rubocop-lts/rubocop-ruby2_2
-[rr23]: https://github.com/rubocop-lts/rubocop-ruby2_3
-[rr24]: https://github.com/rubocop-lts/rubocop-ruby2_4
-[rr25]: https://github.com/rubocop-lts/rubocop-ruby2_5
-[rr26]: https://github.com/rubocop-lts/rubocop-ruby2_6
-[rr27]: https://github.com/rubocop-lts/rubocop-ruby2_7
-[rr30]: https://github.com/rubocop-lts/rubocop-ruby3_0
-[rr31]: https://github.com/rubocop-lts/rubocop-ruby3_1
-[what1_8]: https://github.com/rubocop-lts/rubocop-ruby1_9#what-about-ruby-18
+[rr19]: https://gitlab.com/rubocop-lts/rubocop-ruby1_9
+[rr20]: https://gitlab.com/rubocop-lts/rubocop-ruby2_0
+[rr21]: https://gitlab.com/rubocop-lts/rubocop-ruby2_1
+[rr22]: https://gitlab.com/rubocop-lts/rubocop-ruby2_2
+[rr23]: https://gitlab.com/rubocop-lts/rubocop-ruby2_3
+[rr24]: https://gitlab.com/rubocop-lts/rubocop-ruby2_4
+[rr25]: https://gitlab.com/rubocop-lts/rubocop-ruby2_5
+[rr26]: https://gitlab.com/rubocop-lts/rubocop-ruby2_6
+[rr27]: https://gitlab.com/rubocop-lts/rubocop-ruby2_7
+[rr30]: https://gitlab.com/rubocop-lts/rubocop-ruby3_0
+[rr31]: https://gitlab.com/rubocop-lts/rubocop-ruby3_1
+[what1_8]: https://gitlab.com/rubocop-lts/rubocop-ruby1_9#what-about-ruby-18
 [rubocop-matrix]: https://github.com/rubocop/rubocop/blob/master/docs/modules/ROOT/pages/compatibility.adoc#support-matrix
 
 ## 🗿 Stable
@@ -200,7 +200,7 @@ See [CONTRIBUTING.md][contributing]
 
 ## 🌈 Contributors
 
-[![Contributors](https://contrib.rocks/image?repo=rubocop-lts/rubocop-ruby3_1)]("https://github.com/rubocop-lts/rubocop-ruby3_1/graphs/contributors")
+[![Contributors](https://contrib.rocks/image?repo=rubocop-lts/rubocop-ruby3_1)]("https://gitlab.com/rubocop-lts/rubocop-ruby3_1/-/graphs/main")
 
 Made with [contributors-img](https://contrib.rocks).
 
@@ -224,7 +224,7 @@ Source: [Unsplash][org-logo-source]
 License: [Unsplash License][org-logo-license]
 </details>
 
-[project-logos]: https://github.com/rubocop-lts/rubocop-ruby3_1/blob/main/docs/images/logo/README.txt
+[project-logos]: https://gitlab.com/rubocop-lts/rubocop-ruby3_1/-/blob/main/docs/images/logo/README.txt
 [org-logo-author]: https://unsplash.com/@yusufevli
 [org-logo-source]: https://unsplash.com/photos/yaSLNLtKRIU
 [org-logo-license]: https://unsplash.com/license
@@ -237,7 +237,7 @@ License: [Unsplash License][org-logo-license]
 
 ## 🤝 Code of Conduct
 
-Everyone interacting in the Rubocop::Ruby31 project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/rubocop-lts/rubocop-ruby3_1/blob/main/CODE_OF_CONDUCT.md).
+Everyone interacting in the Rubocop::Ruby31 project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://gitlab.com/rubocop-lts/rubocop-ruby3_1/-/blob/main/CODE_OF_CONDUCT.md).
 
 ## 📌 Versioning
 
@@ -257,15 +257,15 @@ spec.add_dependency "rubocop-ruby3_1", "~> 1.0"
 
 [copyright-notice-explainer]: https://opensource.stackexchange.com/questions/5778/why-do-licenses-such-as-the-mit-license-specify-a-single-year
 
-[gh_discussions]: https://github.com/rubocop-lts/rubocop-ruby3_1/discussions
+[gh_discussions]: https://gitlab.com/rubocop-lts/rubocop-ruby3_1/discussions
 
-[conduct]: https://github.com/rubocop-lts/rubocop-ruby3_1/blob/main/CODE_OF_CONDUCT.md
+[conduct]: https://gitlab.com/rubocop-lts/rubocop-ruby3_1/-/blob/main/CODE_OF_CONDUCT.md
 
-[contributing]: https://github.com/rubocop-lts/rubocop-ruby3_1/blob/main/CONTRIBUTING.md
+[contributing]: https://gitlab.com/rubocop-lts/rubocop-ruby3_1/-/blob/main/CONTRIBUTING.md
 
-[security]: https://github.com/rubocop-lts/rubocop-ruby3_1/blob/main/SECURITY.md
+[security]: https://gitlab.com/rubocop-lts/rubocop-ruby3_1/-/blob/main/SECURITY.md
 
-[license]: https://github.com/rubocop-lts/rubocop-ruby3_1/blob/main/LICENSE.txt
+[license]: https://gitlab.com/rubocop-lts/rubocop-ruby3_1/-/blob/main/LICENSE.txt
 
 [license-ref]: https://opensource.org/licenses/MIT
 
@@ -291,11 +291,11 @@ spec.add_dependency "rubocop-ruby3_1", "~> 1.0"
 
 [documentation]: https://rubydoc.info/github/rubocop-lts/rubocop-ruby3_1/main
 
-[source]: https://github.com/rubocop-lts/rubocop-ruby3_1/
+[source]: https://gitlab.com/rubocop-lts/rubocop-ruby3_1/
 
-[actions]: https://github.com/rubocop-lts/rubocop-ruby3_1/actions
+[actions]: https://gitlab.com/rubocop-lts/rubocop-ruby3_1/actions
 
-[issues]: https://github.com/rubocop-lts/rubocop-ruby3_1/issues
+[issues]: https://gitlab.com/rubocop-lts/rubocop-ruby3_1/-/issues
 
 [climate_maintainability]: https://codeclimate.com/github/rubocop-lts/rubocop-ruby3_1/maintainability
 

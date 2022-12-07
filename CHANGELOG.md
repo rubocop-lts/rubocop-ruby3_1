@@ -6,12 +6,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 ### Added
-
 ### Changed
-
 ### Fixed
-
 ### Removed
+
+## [1.1.0] 2022-12-7
+### Changed
+* Update to rubocop ~> 1.39.0
+* Gem release is now securely signed by author
+* Migration from GitHub to GitLab [ref](https://github.com/actions/toolkit/issues/1214)
 
 ## [1.0.6] 2022-06-08
 ### Changed
@@ -45,11 +48,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 * Initial release
 
-[Unreleased]: https://github.com/rubocop-lts/rubocop-ruby3_1/compare/v1.0.6...HEAD
-[1.0.6]: https://github.com/rubocop-lts/rubocop-ruby3_1/compare/v1.0.5...v1.0.6
-[1.0.5]: https://github.com/rubocop-lts/rubocop-ruby3_1/compare/v1.0.4...v1.0.5
-[1.0.4]: https://github.com/rubocop-lts/rubocop-ruby3_1/compare/v1.0.3...v1.0.4
-[1.0.3]: https://github.com/rubocop-lts/rubocop-ruby3_1/compare/v1.0.2...v1.0.3
-[1.0.2]: https://github.com/rubocop-lts/rubocop-ruby3_1/compare/v1.0.1...v1.0.2
-[1.0.1]: https://github.com/rubocop-lts/rubocop-ruby3_1/compare/v1.0.0...v1.0.1
-[1.0.0]: https://github.com/rubocop-lts/rubocop-ruby3_1/compare/c4cc8fb6374d338e2c328812b4f74c78dfe5cfbd...v1.0.0
+[Unreleased]: https://gitlab.com/rubocop-lts/rubocop-ruby3_1/-/compare/v1.0.6...HEAD
+[1.0.6]: https://gitlab.com/rubocop-lts/rubocop-ruby3_1/-/compare/v1.0.5...v1.0.6
+[1.0.5]: https://gitlab.com/rubocop-lts/rubocop-ruby3_1/-/compare/v1.0.4...v1.0.5
+[1.0.4]: https://gitlab.com/rubocop-lts/rubocop-ruby3_1/-/compare/v1.0.3...v1.0.4
+[1.0.3]: https://gitlab.com/rubocop-lts/rubocop-ruby3_1/-/compare/v1.0.2...v1.0.3
+[1.0.2]: https://gitlab.com/rubocop-lts/rubocop-ruby3_1/-/compare/v1.0.1...v1.0.2
+[1.0.1]: https://gitlab.com/rubocop-lts/rubocop-ruby3_1/-/compare/v1.0.0...v1.0.1
+[1.0.0]: https://gitlab.com/rubocop-lts/rubocop-ruby3_1/-/compare/c4cc8fb6374d338e2c328812b4f74c78dfe5cfbd...v1.0.0
