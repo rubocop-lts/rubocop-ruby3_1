@@ -1,9 +1,9 @@
 # frozen_string_literal: true
 
 # To get coverage
-# On Local, default (HTML) output, it just works, coverage is turned on:
+# On Local, default (HTML) output coverage is turned on with Ruby 2.6+:
 #   bundle exec rspec spec
-# On Local, all output formats:
+# On Local, all output formats with Ruby 2.6+:
 #   COVER_ALL=true bundle exec rspec spec
 #
 # On CI, all output formats, the ENV variables CI is always set,
@@ -12,10 +12,6 @@
 #
 
 if RUN_COVERAGE
-  require "codecov"
-  require "simplecov-lcov"
-  require "simplecov-cobertura"
-
   SimpleCov.start do
     enable_coverage :branch
     primary_coverage :branch
@@ -25,30 +21,13 @@ if RUN_COVERAGE
     track_files "**/*.rb"
 
     if ALL_FORMATTERS
-      if ENV["CI"]
-        command_name "#{ENV.fetch("GITHUB_WORKFLOW",
-                                  nil)} Job #{ENV.fetch("GITHUB_RUN_ID",
-                                                        nil)}:#{ENV.fetch("GITHUB_RUN_NUMBER", nil)}"
-      end
-
-      SimpleCov::Formatter::LcovFormatter.config do |c|
-        c.report_with_single_file = true
-        c.single_report_path = "coverage/lcov.info"
-      end
-
-      SimpleCov.formatters = [
-        SimpleCov::Formatter::HTMLFormatter,
-        SimpleCov::Formatter::CoberturaFormatter,
-        SimpleCov::Formatter::LcovFormatter,
-        SimpleCov::Formatter::JSONFormatter, # For CodeClimate
-        SimpleCov::Formatter::Codecov # For CodeCov
-      ]
+      command_name "#{ENV.fetch("GITHUB_WORKFLOW", nil)} Job #{ENV.fetch("GITHUB_RUN_ID", nil)}:#{ENV.fetch("GITHUB_RUN_NUMBER", nil)}"
     else
       formatter SimpleCov::Formatter::HTMLFormatter
     end
 
-    minimum_coverage(70)
+    minimum_coverage(line: 70, branch: 70)
   end
 else
-  puts "Not running coverage on #{RUBY_ENGINE} #{RUBY_VERSION}"
+  puts "Not running coverage on #{RUBY_VERSION}-#{RUBY_ENGINE}"
 end
