@@ -16,7 +16,8 @@ To release a new version:
 3. move the built gem to project root
 4. run `bin/checksum` to create the missing SHA256 checksum
 5. move the built gem back to `pkg/`
-6. run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org][rubygems].
+6. commit the changes
+7. run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org][rubygems].
 
 NOTE: You will need to have a public key in `certs/`, and list your cert in the
 `gemspec`, in order to sign the new release.
