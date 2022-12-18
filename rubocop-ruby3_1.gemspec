@@ -8,6 +8,9 @@ Gem::Specification.new do |spec|
   spec.authors = ["Peter Boling"]
   spec.email = ["peter.boling@gmail.com"]
 
+  spec.cert_chain  = ['certs/pboling.pem']
+  spec.signing_key = File.expand_path('~/.ssh/gem-private_key.pem') if $PROGRAM_NAME.end_with?('gem')
+
   spec.summary = "Semantically Versioned RuboCop Dependency"
   spec.description = "Links dependency on minimum Ruby version to maximum RuboCop version"
   spec.homepage = "https://github.com/rubocop-lts/rubocop-ruby3_1"
@@ -24,8 +27,17 @@ Gem::Specification.new do |spec|
   spec.metadata["rubygems_mfa_required"] = "true"
 
   # Specify which files should be added to the gem when it is released.
-  spec.files = Dir["lib/**/*.rb", "sig/**/*.rbs", "CHANGELOG.md", "CODE_OF_CONDUCT.md", "CONTRIBUTING.md",
-                   "LICENSE.txt", "README.md", "rubocop.yml", "SECURITY.md"]
+  spec.files = Dir[
+    "lib/**/*.rb",
+    "sig/**/*.rbs",
+    "CHANGELOG.md",
+    "CODE_OF_CONDUCT.md",
+    "CONTRIBUTING.md",
+    "LICENSE.txt",
+    "README.md",
+    "rubocop.yml",
+    "SECURITY.md"
+  ]
   spec.bindir = "exe"
   spec.executables = []
   spec.require_paths = ["lib"]

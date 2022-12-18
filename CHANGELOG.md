@@ -10,6 +10,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 ### Removed
 
+## [1.1.2] 2022-12-18
+### Changed
+* Release is securely signed by author
+
 ## [1.1.1] 2022-12-17
 ### Changed
 * Update to rubocop ~> 1.40.0
@@ -18,7 +22,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.1.0] 2022-12-7
 ### Changed
 * Update to rubocop ~> 1.39.0
-* Gem release is now securely signed by author
+* Gem release ships with SHA512 and SHA256 checksums
 * Migration from GitHub to GitLab [ref](https://github.com/actions/toolkit/issues/1214)
 
 ## [1.0.6] 2022-06-08
@@ -53,7 +57,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 * Initial release
 
-[Unreleased]: https://gitlab.com/rubocop-lts/rubocop-ruby3_1/-/compare/v1.1.1...HEAD
+[Unreleased]: https://gitlab.com/rubocop-lts/rubocop-ruby3_1/-/compare/v1.1.2...HEAD
+[1.1.2]: https://gitlab.com/rubocop-lts/rubocop-ruby3_1/-/compare/v1.1.1...v1.1.2
 [1.1.1]: https://gitlab.com/rubocop-lts/rubocop-ruby3_1/-/compare/v1.1.0...v1.1.1
 [1.1.0]: https://gitlab.com/rubocop-lts/rubocop-ruby3_1/-/compare/v1.0.6...v1.1.0
 [1.0.6]: https://gitlab.com/rubocop-lts/rubocop-ruby3_1/-/compare/v1.0.5...v1.0.6
