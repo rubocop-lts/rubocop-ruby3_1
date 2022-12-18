@@ -10,34 +10,40 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 ### Removed
 
+## [1.1.3] 2022-12-18
+### Added
+* Linting to fix CI build
+* Improved Rakefile for YARD docs
+
 ## [1.1.2] 2022-12-18
-### Changed
+### Added
 * Release is securely signed by author
 
 ## [1.1.1] 2022-12-17
 ### Changed
-* Update to rubocop ~> 1.40.0
+* Update to rubocop `~> 1.40.0`
 * Improved CI workflows (still on GitHub)
 
 ## [1.1.0] 2022-12-7
 ### Changed
-* Update to rubocop ~> 1.39.0
-* Gem release ships with SHA512 and SHA256 checksums
+* Update to rubocop `~> 1.39.0`
 * Migration from GitHub to GitLab [ref](https://github.com/actions/toolkit/issues/1214)
+### Added
+* Gem release ships with `SHA512` and `SHA256` checksums
 
 ## [1.0.6] 2022-06-08
 ### Changed
-* Update to rubocop 1.30.1
+* Update to rubocop `~> 1.30.1`
 * Removed test_files from gemspec
 * Add binstubs for bundle, rake, rspec, and rubocop
 
 ## [1.0.5] 2022-06-05
 ### Changed
-* Update to rubocop 1.30.0
+* Update to rubocop `~> 1.30.0`
 
 ## [1.0.4] 2022-05-23
 ### Changed
-* Update to rubocop 1.29.1
+* Update to rubocop `~> 1.29.1`
 
 ## [1.0.3] 2022-05-23
 ### Added
