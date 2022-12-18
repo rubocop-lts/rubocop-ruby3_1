@@ -101,32 +101,30 @@ The purpose of this gem is to constrain the `rubocop` dependency of a project in
 a [SemVer compliant](https://semver.org/) (Semantic Versioning) way that aligns with the the desired minimum
 compatible/supported Ruby version.
 
-## Ruby Version Support Matrix
+## Ruby Version Support
 
 Adding this gem will facilitate the best practice of adding a `~> ` version constrained `rubocop` dependency, while
 minimizing the risk of a rubocop minor / patch upgrade breaking the build. See the
 official [compatibility matrix][rubocop-matrix] for `rubocop`.
 
-`rubocop-ruby3_1` (this gem) will install on any version of Ruby >= 3.1, and can be used to analyze code intended to support Ruby >= 3.1.
+`rubocop-ruby3_1` (this gem) will install on any version of Ruby >= 3.1,
+and can be used to analyze code intended to support Ruby >= 3.1.
 
-* 🧊 - Install on Ruby `<version>`
-* 🏃‍ - Will Execute on Ruby `<version>`
-* 🪷 - Will not execute correctly on Ruby `<version>`
-* 🛠 - Lint code with Ruby `<version>` syntax as the target
+The `rubocop-lts` series of gems has a version supporting any version of Ruby you need.
+They can be used as development dependencies for libraries or applications.
 
-| gem                     | 1.8.7         | 1.9.3     | 2.0       | 2.1       | 2.2       | 2.3       | 2.4       | 2.5       | 2.6       | 2.7       | 3.0       | 3.1       | ruby-head | jruby-head |
-|-------------------------|---------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|------------|
-| [rubocop-ruby1_9][rr19] | [🛠][what1_8] | 🧊 🏃‍ 🛠 | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🪷     | 🧊 🪷     | 🧊 🪷      |
-| [rubocop-ruby2_0][rr20] |               |           | 🧊 🏃‍ 🛠 | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🪷     | 🧊 🪷     | 🧊 🪷      |
-| [rubocop-ruby2_1][rr21] |               |           |           | 🧊 🏃‍ 🛠 | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🪷     | 🧊 🪷     | 🧊 🪷      |
-| [rubocop-ruby2_2][rr22] |               |           |           |           | 🧊 🏃‍ 🛠 | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊‍ 🪷    | 🧊 🪷     | 🧊 🪷     | 🧊 🪷      |
-| [rubocop-ruby2_3][rr23] |               |           |           |           |           | 🧊 🏃‍ 🛠 | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🪷     | 🧊 🪷     | 🧊 🪷      |
-| [rubocop-ruby2_4][rr24] |               |           |           |           |           |           | 🧊 🏃‍ 🛠 | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🪷     | 🧊 🪷     | 🧊 🪷      |
-| [rubocop-ruby2_5][rr25] |               |           |           |           |           |           |           | 🧊 🏃‍ 🛠 | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🪷      |
-| [rubocop-ruby2_6][rr26] |               |           |           |           |           |           |           | 🛠        | 🧊 🏃‍ 🛠 | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🪷      |
-| [rubocop-ruby2_7][rr27] |               |           |           |           |           |           |           | 🛠        | 🛠        | 🧊 🏃‍ 🛠 | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍     |
-| [rubocop-ruby3_0][rr30] |               |           |           |           |           |           |           | 🛠        | 🛠        | 🛠        | 🧊 🏃‍ 🛠 | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍     |
-| [rubocop-ruby3_1][rr31] |               |           |           |           |           |           |           | 🛠        | 🛠        | 🛠        | 🛠        | 🧊 🏃‍ 🛠 | 🧊 🏃‍    | 🧊 🏃‍     |
+- [`rubocop-ruby1_9`][rr19]
+  - [Still supporting Ruby 1.8?][what1_8]
+- [`rubocop-ruby2_0`][rr20]
+- [`rubocop-ruby2_1`][rr21]
+- [`rubocop-ruby2_2`][rr22]
+- [`rubocop-ruby2_3`][rr23]
+- [`rubocop-ruby2_4`][rr24]
+- [`rubocop-ruby2_5`][rr25]
+- [`rubocop-ruby2_6`][rr26]
+- [`rubocop-ruby2_7`][rr27]
+- [`rubocop-ruby3_0`][rr30]
+- [`rubocop-ruby3_1`][rr31]
 
 [rr19]: https://gitlab.com/rubocop-lts/rubocop-ruby1_9
 [rr20]: https://gitlab.com/rubocop-lts/rubocop-ruby2_0
@@ -144,7 +142,11 @@ official [compatibility matrix][rubocop-matrix] for `rubocop`.
 
 ## 🗿 Stable
 
-All releases of this gem are stable releases. The first version is `1.0.0`.
+All releases of this gem are stable releases.
+We do not release new versions for every release of `rubocop`.
+A typical release cycle for a gem in the `rubocop-lts` family is roughly every six months,
+though eventually analysis support for an old version of Ruby will be dropped.
+When that happens releases of the `rubocop-lts` gem for that version of Ruby will (mostly) cease.
 
 ## ✨ Installation
 
