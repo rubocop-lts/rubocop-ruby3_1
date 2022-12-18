@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 * Linting to fix CI build
 * Improved Rakefile for YARD docs
+* Improved Documentation related to Three Guarantees
 
 ## [1.1.2] 2022-12-18
 ### Added
