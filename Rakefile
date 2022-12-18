@@ -42,7 +42,19 @@ end
 
 require "yard"
 YARD::Rake::YardocTask.new do |t|
-  t.files   = ["lib/**/*.rb", "README.md", "LICENSE.txt"] # optional
+  t.files = [
+    # Splats (alphabetical)
+    "lib/**/*.rb",
+    "sig/**/*.rbs",
+    # Files (alphabetical)
+    "CHANGELOG.md",
+    "CODE_OF_CONDUCT.md",
+    "CONTRIBUTING.md",
+    "LICENSE.txt",
+    "README.md",
+    "rubocop.yml",
+    "SECURITY.md"
+  ]
   t.options = ["-m", "markdown"] # optional
 end
 
