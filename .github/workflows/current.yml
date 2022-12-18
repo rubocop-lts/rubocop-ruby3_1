@@ -39,6 +39,15 @@ jobs:
           - latest
         ruby:
           - "3.1"
+          - "jruby" # 9.4.0.0 == mri 3.1
+        exclude:
+          # Don't care if Rails can install on jruby
+          - gemfile: rails7
+            ruby: "jruby"
+        include:
+          # Vanilla + 3.1 is run by coverage workflow
+          - gemfile: vanilla
+            ruby: "3.1"
 
     runs-on: ubuntu-latest
     continue-on-error: ${{ matrix.experimental || endsWith(matrix.ruby, 'head') }}
