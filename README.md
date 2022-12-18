@@ -107,8 +107,19 @@ Adding this gem will facilitate the best practice of adding a `~> ` version cons
 minimizing the risk of a rubocop minor / patch upgrade breaking the build. See the
 official [compatibility matrix][rubocop-matrix] for `rubocop`.
 
-`rubocop-ruby3_1` (this gem) will install on any version of Ruby >= 3.1,
-and can be used to analyze code intended to support Ruby >= 3.1.
+### Three Guarantees
+
+`rubocop-ruby3_1` (this gem) will install a version of `rubocop` which will
+**install** on (1), **run** on (2), and **analyze code** (3) intended to support any version of Ruby >= 3.1.
+
+Any change to any of those three abilities would require a major version bump.
+Each [spring `rubocop` drops]([rubocop-matrix]) the ability to **install** and **run** `rubocop` on an EOL'd Ruby.
+Eventually `rubocop` will drop the ability to **analyze code** intended to support an EOL'd Ruby,
+as they already have for Ruby 1.8 and 1.9.
+When the `rubocop` team makes any of these changes they typically only bump the minor version of ruby,
+in violation of SemVer.  This is a primary _raison d’être_ for this project.
+
+### A Gem Family
 
 The `rubocop-lts` series of gems has a version supporting any version of Ruby you need.
 They can be used as development dependencies for libraries or applications.
