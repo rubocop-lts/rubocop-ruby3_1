@@ -10,11 +10,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 ### Removed
 
+## [1.1.4] 2022-12-20
+### Fixed
+* Do not require version.rb from gemspec so code coverage is accurate from both `rake` and `rspec`
+* Typos in CHANGELOG & Documentation
+### Changed
+* Minimum Code Coverage == 100%
+
 ## [1.1.3] 2022-12-18
 ### Added
 * Linting to fix CI build
 * Improved Rakefile for YARD docs
-* Improved Documentation related to Three Guarantees
+* Documentation of Three Guarantees:
+    * `rubocop-ruby2_7` (this gem) will install a version of `rubocop` which will
+      **install** on (1), **run** on (2), and **analyze code** (3) intended to support any version of Ruby >= 2.7.
 
 ## [1.1.2] 2022-12-18
 ### Added
