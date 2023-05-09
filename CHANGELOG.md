@@ -10,6 +10,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 ### Removed
 
+## [2.0.0] 2023-04-09
+### Changed
+- New/Better configs for:
+  - rubocop
+  - rubocop-gradual
+  - rubocop-md
+  - rubocop-performance
+  - rubocop-rake
+  - rubocop-shopify
+  - rubocop-thread_safety
+  - standard
+- And optionally, if you are using RSpec:
+  - rubocop-rspec
+- And optionally, if you are using building a RubyGem:
+  - rubocop-packaging
+
 ## [1.1.4] 2022-12-20
 ### Fixed
 * Do not require version.rb from gemspec so code coverage is accurate from both `rake` and `rspec`
@@ -21,9 +37,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 * Linting to fix CI build
 * Improved Rakefile for YARD docs
-* Documentation of Three Guarantees:
-    * `rubocop-ruby2_7` (this gem) will install a version of `rubocop` which will
-      **install** on (1), **run** on (2), and **analyze code** (3) intended to support any version of Ruby >= 2.7.
+* Documentation of why this gem exists
 
 ## [1.1.2] 2022-12-18
 ### Added
@@ -73,7 +87,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 * Initial release
 
-[Unreleased]: https://gitlab.com/rubocop-lts/rubocop-ruby3_1/-/compare/v1.1.4...HEAD
+[Unreleased]: https://gitlab.com/rubocop-lts/rubocop-ruby3_1/-/compare/v2.0.0...HEAD
+[2.0.0]: https://gitlab.com/rubocop-lts/rubocop-ruby3_1/-/compare/v1.1.4...v2.0.0
 [1.1.4]: https://gitlab.com/rubocop-lts/rubocop-ruby3_1/-/compare/v1.1.3...v1.1.4
 [1.1.3]: https://gitlab.com/rubocop-lts/rubocop-ruby3_1/-/compare/v1.1.2...v1.1.3
 [1.1.2]: https://gitlab.com/rubocop-lts/rubocop-ruby3_1/-/compare/v1.1.1...v1.1.2

@@ -3,17 +3,17 @@
 # Get the GEMFILE_VERSION without *require* "my_gem/version", for code coverage accuracy
 # See: https://github.com/simplecov-ruby/simplecov/issues/557#issuecomment-825171399
 load "lib/rubocop/ruby3_1/version.rb"
-GEM_VERSION = Rubocop::Ruby31::VERSION
+gem_version = Rubocop::Ruby31::VERSION
 Rubocop::Ruby31.send(:remove_const, :VERSION)
 
 Gem::Specification.new do |spec|
   spec.name = "rubocop-ruby3_1"
-  spec.version = GEM_VERSION
+  spec.version = gem_version
   spec.authors = ["Peter Boling"]
   spec.email = ["peter.boling@gmail.com"]
 
   # See CONTRIBUTING.md
-  spec.cert_chain  = ["certs/pboling.pem"]
+  spec.cert_chain = ["certs/pboling.pem"]
   spec.signing_key = File.expand_path("~/.ssh/gem-private_key.pem") if $PROGRAM_NAME.end_with?("gem")
 
   spec.summary = "Semantically Versioned RuboCop Dependency"
@@ -49,9 +49,17 @@ Gem::Specification.new do |spec|
   spec.executables = []
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "rubocop", "~> 1.40.0"
+  # linting
+  spec.add_dependency("rubocop-gradual", "~> 0.3")
+  spec.add_dependency("rubocop-md", "~> 1.2")
+  spec.add_dependency("rubocop-rake", "~> 0.6")
+  spec.add_dependency("rubocop-rspec", "~> 2.22")
+  spec.add_dependency("rubocop-shopify", "~> 2.13")
+  spec.add_dependency("rubocop-thread_safety", "~> 0.5")
+  # standard pulls in rubocop-performance
+  spec.add_dependency "standard", ["~> 1.28", "< 2"]
 
-  spec.add_development_dependency "rake", "~> 13.0"
-  spec.add_development_dependency "rspec", "~> 3.12"
-  spec.add_development_dependency "yard"
+  # RubyGems adding this gem will need to add this gem to their dependencies.
+  # Since it only applies to rubygems we do not add it as a runtime dependency of this gem.
+  spec.add_development_dependency("rubocop-packaging", "~> 0.5")
 end

@@ -12,17 +12,13 @@ on:
 
 jobs:
   rubocop:
-    name: Rubocop
+    name: RuboCop
     strategy:
       fail-fast: false
       matrix:
         experimental: [false]
         gemfile:
           - style
-        rubygems:
-          - latest
-        bundler:
-          - latest
         ruby:
           - "3.1"
     runs-on: ubuntu-latest
@@ -38,5 +34,5 @@ jobs:
           rubygems: ${{ matrix.rubygems }}
           bundler: ${{ matrix.bundler }}
           bundler-cache: true
-      - name: Run Rubocop
-        run: bundle exec rubocop -DESP
+      - name: Run RuboCop
+        run: bundle exec rake rubocop_gradual

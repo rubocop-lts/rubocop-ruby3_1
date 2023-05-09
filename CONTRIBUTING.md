@@ -11,13 +11,14 @@ and post a message to the [gitter chat][🏘chat].
 
 To release a new version:
 
-1. update the version number in `version.rb`
-2. run `bundle exec rake build:checksum`
-3. move the built gem to project root
-4. run `bin/checksum` to create the missing SHA256 checksum
-5. move the built gem back to `pkg/`
-6. commit the changes
-7. run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org][rubygems].
+1. Run `bin/setup && bin/rake` as a tests, coverage, & linting sanity check.
+2. update the version number in `version.rb`
+3. run `bundle exec rake build:checksum`
+4. move the built gem to project root
+5. run `bin/checksum` to create the missing SHA256 checksum
+6. move the built gem back to `pkg/`
+7. commit the changes
+8. run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org][rubygems].
 
 NOTE: You will need to have a public key in `certs/`, and list your cert in the
 `gemspec`, in order to sign the new release.
@@ -25,13 +26,12 @@ See: [RubyGems Security Guide][rubygems-security-guide]
 
 ## Contributors
 
-[![Contributors][🖐contributors-img]][🖐contributors]
+See: [https://gitlab.com/rubocop-lts/rubocop-ruby3_1/-/graphs/main][🖐contributors]
 
 [comment]: <> (Following links are used by README, CONTRIBUTING, Homepage)
 
 [conduct]: https://gitlab.com/rubocop-lts/rubocop-ruby3_1/-/blob/main/CODE_OF_CONDUCT.md
 [🖐contributors]: https://gitlab.com/rubocop-lts/rubocop-ruby3_1/-/graphs/main
-[🖐contributors-img]: https://img.shields.io/github/contributors-anon/rubocop-lts/rubocop-ruby3_1
 [🚎src-main]: https://gitlab.com/rubocop-lts/rubocop-ruby3_1/-/tree/main
 [🏘chat]: https://gitter.im/rubocop-lts/community
 [rubygems-security-guide]: https://guides.rubygems.org/security/#building-gems
