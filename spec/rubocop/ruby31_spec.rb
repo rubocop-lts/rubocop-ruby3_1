@@ -12,7 +12,9 @@ RSpec.describe Rubocop::Ruby31 do
 
     it "loads rubocop/ruby3_1/tasks.rake" do
       block_is_expected.to not_raise_error &
-                             change { Rake.application.options.rakelib }.from(["rakelib"]).to(["rakelib", %r{rubocop/ruby3_1/rakelib}])
+        change {
+          Rake.application.options.rakelib
+        }.from(["rakelib"]).to(["rakelib", %r{rubocop/ruby3_1/rakelib}])
     end
   end
 end
