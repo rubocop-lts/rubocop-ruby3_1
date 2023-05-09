@@ -78,7 +78,7 @@ NOTE: You might be interested in [`rubocop-lts`](https://github.com/rubocop-lts/
 [⛳️ini-g]: https://rubygems.org/gems/rubocop-ruby3_1
 [⛳️ini-gh]: https://github.com/rubocop-lts/rubocop-ruby3_1
 
-# 🦾 Rubocop::Ruby30
+# 🦾 Rubocop::Ruby31
 
 See the intro [blog post](https://dev.to/pboling/rubocop-ruby-matrix-gems-nj)!
 
@@ -172,8 +172,8 @@ They can be used as development dependencies for libraries or applications.
 - [`rubocop-ruby2_4`][rr24]
 - [`rubocop-ruby2_5`][rr25]
 - [`rubocop-ruby2_6`][rr26]
-- [`rubocop-ruby3_1`][rrini]
-- [`rubocop-ruby3_1`][rr30]
+- [`rubocop-ruby2_7`][rr27]
+- [`rubocop-ruby3_0`][rr30]
 - [`rubocop-ruby3_1`][rr31]
 
 [rr19]: https://gitlab.com/rubocop-lts/rubocop-ruby1_9
@@ -184,8 +184,8 @@ They can be used as development dependencies for libraries or applications.
 [rr24]: https://gitlab.com/rubocop-lts/rubocop-ruby2_4
 [rr25]: https://gitlab.com/rubocop-lts/rubocop-ruby2_5
 [rr26]: https://gitlab.com/rubocop-lts/rubocop-ruby2_6
-[rrini]: https://gitlab.com/rubocop-lts/rubocop-ruby3_1
-[rr30]: https://gitlab.com/rubocop-lts/rubocop-ruby3_1
+[rr27]: https://gitlab.com/rubocop-lts/rubocop-ruby2_7
+[rr30]: https://gitlab.com/rubocop-lts/rubocop-ruby3_0
 [rr31]: https://gitlab.com/rubocop-lts/rubocop-ruby3_1
 [what1_8]: https://gitlab.com/rubocop-lts/rubocop-ruby1_9#what-about-ruby-18
 
