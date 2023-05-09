@@ -36,6 +36,6 @@ end
 # But ...
 #   externally it won't, so in other internal projects' Rakefiles we:
 require "rubocop/ruby3_1"
-Rubocop::Ruby30.install_tasks
+Rubocop::Ruby31.install_tasks
 
 task default: %i[test rubocop_gradual]
