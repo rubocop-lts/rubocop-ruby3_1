@@ -10,7 +10,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 ### Removed
 
-## [2.0.0] 2023-04-09
+## [2.0.1] 2023-05-17
+### Added
+- Configs added for:
+  - standard-performance
+  - standard-custom
+  - standard-rubocop-lts
+- And optionally, if you are building a Rails app:
+  - betterlint
+  - standard-rails
+- version_gem
+
+## [2.0.0] 2023-05-09
 ### Changed
 - New/Better configs for:
   - rubocop
@@ -87,7 +98,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 * Initial release
 
-[Unreleased]: https://gitlab.com/rubocop-lts/rubocop-ruby3_1/-/compare/v2.0.0...HEAD
+[Unreleased]: https://gitlab.com/rubocop-lts/rubocop-ruby3_1/-/compare/v2.0.1...HEAD
+[2.0.1]: https://gitlab.com/rubocop-lts/rubocop-ruby3_1/-/compare/v2.0.0...v2.0.1
 [2.0.0]: https://gitlab.com/rubocop-lts/rubocop-ruby3_1/-/compare/v1.1.4...v2.0.0
 [1.1.4]: https://gitlab.com/rubocop-lts/rubocop-ruby3_1/-/compare/v1.1.3...v1.1.4
 [1.1.3]: https://gitlab.com/rubocop-lts/rubocop-ruby3_1/-/compare/v1.1.2...v1.1.3
