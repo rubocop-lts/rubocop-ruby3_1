@@ -26,7 +26,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - standard-rails
 - version_gem
 
-## [2.0.0] 2023-05-09
+## [2.0.0] 2023-05-09 [YANKED]
 ### Changed
 - New/Better configs for:
   - rubocop
